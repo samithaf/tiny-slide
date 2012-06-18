@@ -1,0 +1,52 @@
+div.slide_show{
+    width: 640px;
+    height: 640px;
+    background: transparent;
+	position: relative;
+}
+div.slide_show  img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:4;
+}
+div.slide_show img.active {
+    z-index:6;
+}
+div.slide_show img.last-active {
+    z-index:5;
+}
+
+div.slide_show div.scrolling_hot_spot_left{
+	min-width: 40px;
+	width: 40px;
+	height: 74px;
+	position: absolute;
+	z-index: 200;
+	left: 0;
+    top: 50%;
+	margin-top:-37px; 
+	cursor: url(../images/cursor_arrow_left.png),pointer;
+	background:#fff url('../images/slide_arrow_left.gif') 40% center no-repeat;
+	opacity: 0.35;
+	-moz-opacity: 0.35;
+	filter: alpha(opacity = 35);
+    display: none;
+}
+
+div.slide_show div.scrolling_hot_spot_right{
+	min-width: 40px;
+	width: 40px;
+	height: 74px;
+	position: absolute;
+	z-index: 200;
+	right: 0;
+    top: 50%;
+	margin-top:-37px;
+	cursor: url(../images/cursor_arrow_right.png), pointer;
+    background:#fff url('../images/slide_arrow_right.gif') 40% center no-repeat;
+	opacity: 0.35;
+	filter: alpha(opacity = 35);
+	-moz-opacity: 0.35;
+    display: none;
+}
