@@ -2,6 +2,7 @@
  * 	slideShow - jQuery plugin
  *	written by Samitha Fernando	
  *	Copyright (c) 2012 Samitha Fernando
+ *	http://au.linkedin.com/in/samithaf
  *	Dual licensed under the MIT (MIT-LICENSE.txt)
  *	and GPL (GPL-LICENSE.txt) licenses.
  *
